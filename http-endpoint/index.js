@@ -1,6 +1,3 @@
-var NUM_PROCESSORS = 6
-var EMIT_DELAY = 500 // ms
-
 module.exports = {
   name: 'http-endpoint',
   api: 'endpoint',
