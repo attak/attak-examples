@@ -2,11 +2,13 @@ module.exports = {
   name: 'scheduled',
   schedule: [
     {
+      name: 'every_2_minutes_cron',
       type: 'cron',
-      value: '*/2 * * * *',
+      value: '*/2 * * * ? *',
       processor: 'onEvent'
     },
     {
+      name: 'every_minute_rate',
       type: 'rate',
       value: '1 minute',
       processor: 'onEvent'
