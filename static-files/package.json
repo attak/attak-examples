@@ -1,0 +1,14 @@
+{
+  "name": "static-files-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "attak-processor": "git+https://git@github.com/attak/attak-processor.git"
+  }
+}
